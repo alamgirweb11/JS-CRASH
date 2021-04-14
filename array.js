@@ -18,3 +18,6 @@ let addValue = info.push("push method");
 // array sort using sort method
 let arraySort = info.sort();
 console.log(arraySort);
+// delete and  replace value
+info.splice(3,1,'replace last value');
+console.log(info);
